@@ -90,5 +90,37 @@ const ContextProvider = ({ children }) => {
     connectionRef.current = peer;
   };
 
-  const leaveCall = () => {};
+  const leaveCall = () => {
+    setCallEnded(true);
+
+    connectionRef.current.destroy();
+
+    // reload the page to provide new id to the user
+    window.location.reload();
+  };
+
+  // All the variables inside the value will be globally accessbile to all components
+  // Context only has 1 thing of it, children
+  return (
+    <SocketContext.Provider
+      value={{
+        call,
+        callAccepted,
+        myVideo,
+        userVideo,
+        stream,
+        name,
+        setName,
+        callEnded,
+        me,
+        callUser,
+        leaveCall,
+        answerCall,
+      }}
+    >
+      {children}
+    </SocketContext.Provider>
+  );
 };
+
+export { ContextProvider, SocketContext };
