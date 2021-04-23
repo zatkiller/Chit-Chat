@@ -20,3 +20,5 @@ Steps to use:
 5. Have your friend enter your user id and press call
 6. Wait for the call notification to appear on your browser
 7. Accept his call and start chatting :smile:
+
+Note: There might be some bugs as I'm still learning about Socket.IO and webRTC :sweat_smile:
