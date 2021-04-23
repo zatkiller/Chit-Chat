@@ -11,8 +11,12 @@ const ContextProvider = ({ children }) => {
   const [stream, setStream] = useState();
   const [call, setCall] = useState({});
   const [me, setMe] = useState("");
+  const [callAccepted, setCallAccepted] = useState(false);
+  const [callEnded, setCallEnded] = useState(false);
 
   const myVideo = useRef();
+  const userVideo = useRef();
+  const connectionRef = useRef();
 
   useEffect(() => {
     // Get permission to use mic and camera from the user
@@ -33,7 +37,31 @@ const ContextProvider = ({ children }) => {
     });
   }, []);
 
-  const answerCall = () => {};
+  const answerCall = () => {
+    setCallAccepted(true);
+
+    // Initiator - person who created the call
+    //
+    const peer = new Peer({ initiator: false, trickle: false, stream });
+
+    // receive the signal, similar to socket on connection
+    // to - the person callng
+    peer.on("signal", (data) => {
+      socket.emit("answerCall", { signal: data, to: call.from });
+    });
+
+    // start the stream on both videos
+    peer.on("stream", (currentStream) => {
+      // Set the other person stream
+      userVideo.current.srcObject = currentStream;
+    });
+
+    //call.signal comes from socket, pass the state to peer
+    peer.signal(call.signal);
+
+    // current connection = the perr connection
+    connectionRef.current = peer;
+  };
 
   const callUser = () => {};
 
