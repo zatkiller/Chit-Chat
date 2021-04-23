@@ -2,7 +2,7 @@
 
 Live demo: https://zoom-clone-webapp.netlify.app/
 
-Full-stack Live Video Chat app that is built using the following:
+Full-stack Zoom Clone, live video chat app that is built using the following:
 * React
 * Material-UI
 * NodeJS
@@ -10,7 +10,7 @@ Full-stack Live Video Chat app that is built using the following:
 * Socket.IO (WebSockets)
 * PeerJS (WebRTC)
 
-Implemented Socket.IO and PeerJS for real time video streaming
+Implemented Socket.IO and PeerJS for real time video streaming. 
 
 Steps to use:
 1. Allow the browser to access your webcam and microphone
