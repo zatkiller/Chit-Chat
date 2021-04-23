@@ -1,0 +1,1 @@
+Live Video chat app built using React, NodeJS, Socket IO and webRTC for live streaming
