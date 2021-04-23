@@ -21,9 +21,6 @@ const useStyles = makeStyles((theme) => ({
       width: "90%",
     },
   },
-  image: {
-    marginLeft: "15px",
-  },
   wrapper: {
     display: "flex",
     flexDirection: "column",
@@ -36,7 +33,7 @@ const App = () => {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className={classes.wrapper}>
       <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography variant="h2" align="center">
           Video Chat
