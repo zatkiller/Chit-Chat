@@ -1,4 +1,4 @@
-## Let's Chat
+## Chit Chat
 
 Live demo: https://zoom-clone-webapp.netlify.app/
 
