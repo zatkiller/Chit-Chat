@@ -1,4 +1,4 @@
-## Zoom Clone 
+## Let's Chat
 
 Live demo: https://zoom-clone-webapp.netlify.app/
 
