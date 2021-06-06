@@ -1,8 +1,8 @@
-## Zoom Clone 
+## Chit Chat
 
-Live demo: https://zoom-clone-webapp.netlify.app/
+Live demo: https://chit-chat-webapp.netlify.app/
 
-Full-stack Zoom Clone, live video chat app that is built using the following:
+Full-stack real-time video chat app that is built using the following:
 * React
 * Material-UI
 * NodeJS
