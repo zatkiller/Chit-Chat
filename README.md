@@ -8,7 +8,7 @@ Full-stack real-time video chat app that is built using the following:
 * NodeJS
 * Express
 * Socket.IO (WebSockets)
-* PeerJS (WebRTC)
+* Simple-Peer (WebRTC)
 
 Implemented Socket.IO and PeerJS for real time video streaming. 
 
