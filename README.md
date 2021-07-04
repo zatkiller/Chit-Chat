@@ -1,7 +1,5 @@
 ## Chit Chat
 
-Live demo: https://chit-chat-webapp.netlify.app/
-
 Full-stack real-time video chat app that is built using the following:
 * React
 * Material-UI
@@ -9,6 +7,9 @@ Full-stack real-time video chat app that is built using the following:
 * Express
 * Socket.IO (WebSockets)
 * Simple-Peer (WebRTC)
+
+### Live Demo
+Link: https://chit-chat-webapp.netlify.app/
 
 ### Steps to use:
 1. Give the browser permission to access your webcam and microphone
