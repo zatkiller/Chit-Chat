@@ -20,4 +20,5 @@ Link: https://chit-chat-webapp.netlify.app/
 6. Wait for the call notification to appear on your browser
 7. Accept his / her call and start chatting :smile:
 
-Note: Users who are using a VPN may face issues with using this issue. If your video stream dosen't load, try switching off you VPN!
+### Issues 
+Users who are using a VPN may face issues with using this issue. If your video stream dosen't load, try switching off you VPN!
