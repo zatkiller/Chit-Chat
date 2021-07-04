@@ -17,4 +17,6 @@ Full-stack real-time video chat app that is built using the following:
 4. Send your user id to a friend
 5. Have your friend enter your user id and press call
 6. Wait for the call notification to appear on your browser
-7. Accept his call and start chatting :smile:
+7. Accept his / her call and start chatting :smile:
+
+Note: Users who are using a VPN may face issues with using this issue. If your video stream dosen't load, try switching off you VPN!
