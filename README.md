@@ -21,4 +21,4 @@ Link: https://chit-chat-webapp.netlify.app/
 7. Accept his / her call and start chatting :smile:
 
 ### Issues 
-Users who are using a VPN may face issues with using this issue. If your video stream dosen't load, try switching off you VPN!
+Users who are using a VPN may face issues while using this application. If your video stream dosen't load, try switching off you VPN!
